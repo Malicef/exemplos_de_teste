@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reprodutor de Música</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <div class="artwork"> 
+        <div class="music-icon">🎵</div>
+    </div>
+
+    <div class="progress-container">
+      <span id="currentTime">0:00</span>
+      <input type="range" id="progress" value="0" min="0" max="100">
+      <span id="duration">3:56</span>
+    </div>
+    
+    <div class="controls">
+      <button id="play" aria-label="Play">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+      </button>
+      <button id="pause" aria-label="Pause">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+          <path d="M6 19h4V5H6zm8-14v14h4V5z"/>
+        </svg>
+      </button>
+      <button id="stop" aria-label="Stop">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+          <path d="M6 6h12v12H6z"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="volume-container">
+      <span class="volume-icon">🔈</span>
+      <input type="range" id="volume" min="0" max="100" value="50">
+    </div>
+
+    <button id="toggleFilter">Filtro Passa-Baixa</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

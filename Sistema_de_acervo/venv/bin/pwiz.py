@@ -1,4 +1,4 @@
-#!/home/alice/Área de Trabalho/Exemplos_de_teste/Sistema_de_biblioteca/venv/bin/python3
+#!/home/alice/Área de Trabalho/Exemplos_de_teste/Sistema_de_acervo/venv/bin/python3
 
 import datetime
 import os

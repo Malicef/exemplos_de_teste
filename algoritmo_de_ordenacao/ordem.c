@@ -5,14 +5,13 @@
 void ordena(int arr[], int n){
 
     for (int i = 0; i < n -1; i++){
-        bool swapeewd = false;
-        for (int j = 0; j < n - 1; j++){ //ERROR: j < n - i - 1 = uma interação a maais
-            // printf("passo injetado %d\n", j); 
+        bool swapeed = false;
+        for (int j = 0; j < n; j++){ 
             if (arr[j] > arr[j + 1]){
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-                swapeewd = true;
+                swapeed = true;
             }
         }
         printf("Passo %d: ", i + 1);
@@ -21,7 +20,7 @@ void ordena(int arr[], int n){
         }
 
         printf("\n");
-        if (!swapeewd) break;
+        if (!swapeed) break;
     }
 }
 

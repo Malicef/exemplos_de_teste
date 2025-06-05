@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/alice/Área de Trabalho/Exemplos_de_teste/Sistema_de_biblioteca/venv'
+VIRTUAL_ENV='/home/alice/Área de Trabalho/Exemplos_de_teste/Sistema_de_acervo/venv'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
