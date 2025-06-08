@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Caminho da pasta do projeto compilado que você quer publicar
-          path: '/reprodutor_de_audio'
+          path: 'reprodutor_de_audio'
 
       - name: Deploy to GitHub Pages
         id: deployment
